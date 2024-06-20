@@ -1,5 +1,3 @@
-// Example usage in LogoGenerator.js
-
 const Circle = require('./Circle');
 const Square = require('./Square');
 const Triangle = require('./Triangle');
