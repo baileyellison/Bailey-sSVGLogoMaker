@@ -9,8 +9,9 @@ class Triangle {
     }
 
     render() {
-        // Generate SVG string for triangle with the specified color
-        return `<polygon points="50,150 100,50 150,150" fill="${this.color}" />`;
+        return `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="150,200 300,0 0,0" fill="${this.color}" />
+                </svg>`;
     }
 }
 

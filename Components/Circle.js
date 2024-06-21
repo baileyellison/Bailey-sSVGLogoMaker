@@ -5,13 +5,14 @@ class Circle {
         this.color = "black"; 
     }
 
-    set(color) {
+    setColor(color) {
         this.color = color;
     }
 
     render() {
-        // Generate SVG string for circle with the specified color
-        return `<circle cx="100 cy="100" r="${this.radius}" fill="${this.color}"/>`;
+        return `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="150" cy="100" r="${this.radius}" fill="${this.color}" />
+                </svg>`;
     }
 }
 

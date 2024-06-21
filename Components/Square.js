@@ -9,8 +9,9 @@ class Square {
     }
 
     render() {
-        // Generate SVG string for square with the specified color
-        return `<rect x="50" y="50" width="${this.sideLength}" height="${this.sideLength}" fill="${this.color}" />`;
+        return `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50" y="50" width="${this.sideLength}" height="${this.sideLength}" fill="${this.color}" />
+                </svg>`;
     }
 }
 
