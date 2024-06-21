@@ -19,6 +19,9 @@ To install this application please install Node.js package and require inquirer 
 ## Usage
 As stated in the description, the user is guided through a series of prompts to create an SVG image logo. Once the user has installed the correct packages and enters the CLI, type the command node index.js to be guided through said questions. This can be useful for those who want a simple logo for their business or to see what different colorschemes/shapes may look like. 
 
+## Link to video
+[WalkthroughVideo](https://youtu.be/_7C5h2QPimk)
+
 ## Credits
 N/A
 
